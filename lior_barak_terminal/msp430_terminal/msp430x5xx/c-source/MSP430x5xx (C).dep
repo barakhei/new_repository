@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>451952471</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$PROJ_DIR$\MainTerminalMSP.c</file>
+      <file>$PROJ_DIR$\debug\Obj\MainTerminalMSP.r43</file>
+      <file>$TOOLKIT_DIR$\config\lnk430F5438A.xcl</file>
+      <file>$PROJ_DIR$\debug\Obj\msp430x5xx_fet_1.r43</file>
+      <file>$TOOLKIT_DIR$\inc\msp430x54xA.h</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\Functions.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\msp430x5xx_fet_1.pbi</file>
+      <file>$TOOLKIT_DIR$\config\multiplier32_loc2.xcl</file>
+      <file>$PROJ_DIR$\msp430x5xx_fet_1.c</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430xsfn.r43</file>
+      <file>$PROJ_DIR$\LCD.h</file>
+      <file>$PROJ_DIR$\debug\Obj\MSP430x5xx (C).pbd</file>
+      <file>$PROJ_DIR$\debug\Exe\MSP430x5xx (C).d43</file>
+      <file>$PROJ_DIR$\debug\Obj\MainTerminalMSP.pbi</file>
+      <file>$PROJ_DIR$\lcd_exm.c</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 14</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\MainTerminalMSP.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 2</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 0 6 16</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 5 0 6 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\msp430x5xx_fet_1.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 0 6 16</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 5 0 6 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\debug\Obj\MSP430x5xx (C).pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 15</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\debug\Exe\MSP430x5xx (C).d43</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 3 9 2 11</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+</project>
+
+

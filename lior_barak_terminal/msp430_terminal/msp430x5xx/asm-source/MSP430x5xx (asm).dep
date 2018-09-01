@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1471449406</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>Z:\DCS\LAB2\Lab2_DMA.s43</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Lab2\Lab2_dac.s43</file>
+      <file>$PROJ_DIR$\msp430x5xx_fet_1.s43</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\yohaiseg\Desktop\lab2_a.s43</file>
+      <file>$PROJ_DIR$\Debug\Obj\msp430x54x_dma_01.r43</file>
+      <file>$TOOLKIT_DIR$\inc\msp430f5438.h</file>
+      <file>$TOOLKIT_DIR$\config\multiplier32_loc2.xcl</file>
+      <file>$TOOLKIT_DIR$\inc\msp430xG46x.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Lab2_dac.r43</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Lab2\Lab2_DMA.s43</file>
+      <file>$TOOLKIT_DIR$\inc\msp430f5438a.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\MSP430x5xx (asm).d43</file>
+      <file>$PROJ_DIR$\Debug\Obj\msp430x5xx_fet_1.r43</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\yohaiseg\Desktop\Lab2\Lab2_dac.s43</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\yohaiseg\Desktop\Lab2\msp430x54x_dma_01.s43</file>
+      <file>$PROJ_DIR$\Debug\Obj\Lab2_DMA.r43</file>
+      <file>$TOOLKIT_DIR$\config\lnk430F5438A.xcl</file>
+      <file>$PROJ_DIR$\Debug\Obj\lab2_a.r43</file>
+      <file>$TOOLKIT_DIR$\inc\msp430.h</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 11</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>Z:\DCS\LAB2\Lab2_DMA.s43</name>
+      <outputs>
+        <tool>
+          <name>A430</name>
+          <file> 15</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Lab2\Lab2_dac.s43</name>
+      <outputs>
+        <tool>
+          <name>A430</name>
+          <file> 8</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>A430</name>
+          <file> 7</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\msp430x5xx_fet_1.s43</name>
+      <outputs>
+        <tool>
+          <name>A430</name>
+          <file> 12</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>A430</name>
+          <file> 18 10</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\yohaiseg\Desktop\lab2_a.s43</name>
+      <outputs>
+        <tool>
+          <name>A430</name>
+          <file> 17</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>A430</name>
+          <file> 18 10</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Lab2\Lab2_DMA.s43</name>
+      <outputs>
+        <tool>
+          <name>A430</name>
+          <file> 15</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>A430</name>
+          <file> 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\MSP430x5xx (asm).d43</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 16 6 8</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\yohaiseg\Desktop\Lab2\Lab2_dac.s43</name>
+      <outputs>
+        <tool>
+          <name>A430</name>
+          <file> 8</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\yohaiseg\Desktop\Lab2\msp430x54x_dma_01.s43</name>
+      <outputs>
+        <tool>
+          <name>A430</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>A430</name>
+          <file> 18 10</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+</project>
+
+

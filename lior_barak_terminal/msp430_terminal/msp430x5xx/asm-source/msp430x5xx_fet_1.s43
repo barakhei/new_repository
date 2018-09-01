@@ -1,0 +1,46 @@
+;******************************************************************************
+;  MSP430F54x Demo - Software Poll P2.7, Set P1.0 if P2.7 = 0
+;
+;  Description: Poll P2.7 in a loop, if hi P1.0 is reset, if low, P1.0 set.
+;  ACLK = n/a, MCLK = SMCLK = default DCO
+;
+;              MSP430F5438
+;            -----------------
+;        /|\|              XIN|-
+;         | |                 |
+;         --|RST          XOUT|-
+;     /|\   |                 |
+;      --o--|P2.7         P1.0|-->LED
+;     \|/
+;
+;   M. Morales
+;   Texas Instruments Inc.
+;   September 2008
+;   Built with IAR Embedded Workbench Version: 4.11B
+;******************************************************************************
+
+#include <msp430.h>
+
+;-------------------------------------------------------------------------------
+            RSEG    CSTACK                    ; Define stack segment
+;-------------------------------------------------------------------------------
+            RSEG    CODE                      ; Assemble to Flash memory
+;-------------------------------------------------------------------------------
+RESET       mov.w   #SFE(CSTACK),SP           ; Initialize stackpointer
+            mov.w   #WDTPW + WDTHOLD,&WDTCTL  ; Stop WDT    
+            bis.b   #BIT0,&P1DIR              ; Set P1.0 to output direction
+Mainloop    
+            bit.b   #BIT7,&P2IN               ; P2.7 (In) == 1?
+            jnc     turn_on_LED
+turn_off_LED 
+            bic.b   #BIT0,&P1OUT              ; Yes -> resetP1.0 (LED)
+            jmp     Mainloop 
+turn_on_LED 
+            bis.b   #BIT0,&P1OUT              ; No  -> set P1.0 (LED)
+            jmp     Mainloop 
+;-------------------------------------------------------------------------------
+            COMMON  INTVEC                    ; Interrupt Vectors
+;-------------------------------------------------------------------------------
+            ORG     RESET_VECTOR              ; POR, ext. Reset
+            DW      RESET
+            END 
