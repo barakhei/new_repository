@@ -1,0 +1,12 @@
+C:\Users\DELL\Desktop\temi\temi_test\head_test\head_test\obj\Debug\head_test.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Desktop\temi\temi_test\head_test\head_test\obj\Debug\head_test.Properties.Resources.resources
+C:\Users\DELL\Desktop\temi\temi_test\head_test\head_test\obj\Debug\head_test.csproj.GenerateResource.cache
+C:\Users\DELL\Desktop\temi\temi_test\head_test\head_test\obj\Debug\head_test.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\temi\temi_test\head_test\head_test\obj\Debug\head_test.Chat.resources
+C:\Users\DELL\Desktop\temi\temi_test\head_test\head_test\obj\Debug\head_test.MainMenu.resources
+C:\Users\DELL\Desktop\temi\temi_test\head_test\head_test\bin\Debug\head_test.exe.config
+C:\Users\DELL\Desktop\temi\temi_test\head_test\head_test\bin\Debug\head_test.exe
+C:\Users\DELL\Desktop\temi\temi_test\head_test\head_test\bin\Debug\head_test.pdb
+C:\Users\DELL\Desktop\temi\temi_test\head_test\head_test\obj\Debug\head_test.exe
+C:\Users\DELL\Desktop\temi\temi_test\head_test\head_test\obj\Debug\head_test.pdb
+C:\Users\DELL\Desktop\temi\temi_test\head_test\head_test\obj\Debug\head_test.StatusControl.resources
